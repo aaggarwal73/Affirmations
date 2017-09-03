@@ -1,0 +1,10 @@
+<template name="affirmations">
+  <h3 class="page-header">Affirmations</h3>
+
+  <ul class="list-group" id="affirmations">
+    {{#each this}}
+      <li class="list-group-item">{{content}} <br>
+      <strong>By {{author}} for {{for}}</strong></li>
+    {{/each}}
+  </ul>
+</template>
