@@ -1,0 +1,8 @@
+<template name="index">
+  <ul class="nav nav-pills">
+    <li data-template="books" role="presentation" class="active"><a href="#">Books</a></li>
+    <li data-template="movies" role="presentation"><a href="#">Movies</a></li>
+    <li data-template="games" role="presentation"><a href="#">Games</a></li>
+  </ul>
+  {{> Template.dynamic template=tab data=tabData}}
+</template>
