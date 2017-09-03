@@ -1,10 +1,8 @@
 <template name="index">
   <ul class="nav nav-pills">
-    <li data-template="books" role="presentation" class="active"><a href="#">Books</a></li>
-    <li data-template="movies" role="presentation"><a href="#">Movies</a></li>
-    <li data-template="games" role="presentation"><a href="#">Games</a></li>
-    <li data-template="affirmations" role="presentation"><a href="#">Affirmations</a></li>
-
+  	<li data-template="profile" role="presentation" class="active"><a href="#">My Profile</a></li>
+    <li data-template="groups" role="presentation"><a href="#">My Groups</a></li>
+    <li data-template="affirmations" role="presentation"><a href="#">My Affirmations</a></li>
   </ul>
   {{> Template.dynamic template=tab data=tabData}}
 </template>

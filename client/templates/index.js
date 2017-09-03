@@ -1,11 +1,10 @@
 import './index.html';
-import './books.html';
-import './movies.html';
-import './games.html';
+import './groups.html';
+import './profile.html';
 import './affirmations.html';
 
 Template.index.onCreated( function() {
-  this.currentTab = new ReactiveVar( "books" );
+  this.currentTab = new ReactiveVar( "profile" );
 });
 
 Template.index.helpers({
@@ -16,16 +15,11 @@ Template.index.helpers({
     var tab = Template.instance().currentTab.get();
 
     var data = {
-      "books": [
-        { "name": "Seeking Wisdom: From Darwin to Munger", "creator": "Peter Bevelin" }
-        
-      ],
-      "movies": [
-        { "name": "Ghostbusters", "creator": "Dan Aykroyd" },
-        
-      ],
-      "games": [
-        { "name": "Grand Theft Auto V", "creator": "Rockstar Games" },
+      "profile": 
+        { "name":"Cole", "email": "emai'@email.com"}
+      ,
+      "groups": [
+        { "name": "FFM"},
         
       ],
       "affirmations":[
