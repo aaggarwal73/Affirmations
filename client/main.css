@@ -123,3 +123,9 @@ header .hide-completed {
     padding-bottom: 5px;
   }
 }
+
+#affirmations {
+  height: 450px; 
+  overflow:hidden; 
+  overflow-y:scroll;
+}

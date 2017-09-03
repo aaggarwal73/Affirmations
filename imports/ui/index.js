@@ -2,6 +2,7 @@ import './index.html';
 import './books.html';
 import './movies.html';
 import './games.html';
+import './affirmations.html';
 
 Template.index.onCreated( function() {
   this.currentTab = new ReactiveVar( "books" );
@@ -26,7 +27,67 @@ Template.index.helpers({
       "games": [
         { "name": "Grand Theft Auto V", "creator": "Rockstar Games" },
         
-      ]
+      ],
+      "affirmations":[
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"},
+      {"content": "I like how we worked on this app and it finally go working really really late", "author": "Cole", "for": "Aman"},
+      {"content": "This app is A1", "author": "Cole", "for": "Aman"},
+      {"content": "Let's see how long messages work. \n aaljsgjasgnklasgnajsdgnljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\nasjagsjnsagjagsjnagsnjgasjnsagnjsagdkjn", "author": "Cole", "for": "Aman"}
+      
+      ],
     };
 
     return data[ tab ];
