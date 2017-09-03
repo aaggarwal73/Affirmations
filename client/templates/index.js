@@ -20,6 +20,10 @@ Template.index.helpers({
       ,
       "groups": [
         { "name": "FFM"},
+        { "name": "Glenn"},
+        { "name": "Hefty-Strong"},
+        { "name": "NaN"},
+        { "name": "Hall Directors"}
         
       ],
       "affirmations":[

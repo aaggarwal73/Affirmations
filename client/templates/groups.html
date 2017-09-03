@@ -1,9 +1,11 @@
 <template name="groups">
   <h3 class="page-header">My Groups</h3>
-
-  <ul class="list-group">
-    {{#each this}}
-      <li class="list-group-item"><strong>{{name}}</strong></li>
-    {{/each}}
-  </ul>
+  <div>
+	  <ul class="nav nav-pills nav-stacked" id="group" ><!--list-group --> 
+	    {{#each this}}
+	      <li><a href="#" role="presentation" data-template="affirmations"><strong>{{name}}</strong></a></li> <!-- class="list-group-item"-->
+	    {{/each}}
+	  </ul>
+   {{> Template.dynamic template=tab data=tabData}}
+  </div>
 </template>
