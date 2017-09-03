@@ -2,36 +2,22 @@
   <div class="container">
     <header>
       {{#if currentUser}}
-
-          <h1>Todo List ({{incompleteCount}})</h1>
-          {{> loginButtons}}
-
-          <label class="hide-completed">
-            <input type="checkbox" />
-            Hide Completed Tasks
-          </label>
-
-          <form class="new-task">
-            <input type="text" name="text" placeholder="Type to add new tasks" />
-          </form>
+          <h1>Affirmation Central</h1>   
       {{else}}
         <h1>Login</h1>
       {{/if}}
     </header>
 
       {{#if currentUser}}
-        <ul>
-        {{#each tasks}}
-          {{> task}}
-        {{/each}}
-        </ul>
-      {{else}}
         {{> loginButtons}}
         <br>
 
         {{> About}}
         <br>
         {{> index}}
+      {{else}}
+        <h3>You should try logging in.</h3>
+        {{> loginButtons}}
       {{/if}}
 
   </div>
