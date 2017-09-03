@@ -1,1 +1,1 @@
-import '/templates/body.js';
+import './templates/body.js';
