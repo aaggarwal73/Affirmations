@@ -1,0 +1,9 @@
+<template name="games">
+  <h3 class="page-header">Games</h3>
+
+  <ul class="list-group">
+    {{#each this}}
+      <li class="list-group-item"><strong>{{name}}</strong> by {{creator}}</li>
+    {{/each}}
+  </ul>
+</template>

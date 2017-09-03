@@ -1,0 +1,9 @@
+<template name="movies">
+  <h3 class="page-header">Movies</h3>
+
+  <ul class="list-group">
+    {{#each this}}
+      <li class="list-group-item"><strong>{{name}}</strong> by {{creator}}</li>
+    {{/each}}
+  </ul>
+</template>

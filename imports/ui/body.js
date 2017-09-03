@@ -3,11 +3,11 @@ import { ReactiveDict } from 'meteor/reactive-dict';
 import { Tasks } from '../api/tasks.js';
 import { Meteor } from 'meteor/meteor';
 
-
-
-
 import './body.html';
 import './task.js';
+import './about.html';
+import './index.html';
+import './index.js';
 
 Template.body.onCreated(function bodyOnCreated() {
   this.state = new ReactiveDict();
@@ -27,7 +27,8 @@ Template.body.helpers({
   },
     incompleteCount() {
     return Tasks.find({ checked: { $ne: true } }).count();
-  },
+  }
+
 });
 
 Template.body.events({
@@ -42,7 +43,7 @@ Template.body.events({
     // Insert a task into the collection
     Tasks.insert({
       text,
-      createdAt: new Date(), // current time
+      createdAt: new Date(),
       owner: Meteor.userId(),
       username: Meteor.user().emails[0]["address"],
     });
@@ -53,5 +54,5 @@ Template.body.events({
 
   'change .hide-completed input'(event, instance) {
     instance.state.set('hideCompleted', event.target.checked);
-  },
+  }
 });
